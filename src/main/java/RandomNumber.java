@@ -6,7 +6,7 @@ public class RandomNumber {
 
     public RandomNumber(int digit) throws Exception {
         if (digit > 9) {
-            throw new Exception();
+            throw new DigitException();
         }
         this.digit = digit;
     }
